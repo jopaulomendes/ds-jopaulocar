@@ -1,0 +1,27 @@
+.main-nav {
+    padding-left: 40px;
+    min-height: 70px;
+    border: 1px solid red;
+}
+
+.nav-log-text {
+    color: #00285F;
+    border: 1px solid blue;
+}
+
+.main-menu {
+    display: flex;
+    font-size: 18px;
+    width: 380px;
+    justify-content: space-around;
+    border: 1px solid green;
+}
+
+.main-menu a.active {
+  font-weight: bolder;
+  border: 1px solid black;
+}
+
+.navbar-toggler-icon {
+    color: #00285F;
+}
