@@ -1,27 +1,24 @@
 .main-nav {
-    padding-left: 40px;
-    min-height: 70px;
-    border: 1px solid red;
+  min-height: 70px;
 }
 
-.nav-log-text {
-    color: #00285F;
-    border: 1px solid blue;
-}
-
-.main-menu {
-    display: flex;
-    font-size: 18px;
-    width: 380px;
-    justify-content: space-around;
-    border: 1px solid green;
-}
-
-.main-menu a.active {
-  font-weight: bolder;
-  border: 1px solid black;
+.ul-style {
+  display: flex;
+  font-size: 18px;
+  width: 180px;
+  justify-content: space-between;
 }
 
 .navbar-toggler-icon {
-    color: #00285F;
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.navbar-toggler:hover {
+  text-decoration: none;
 }
